@@ -1,0 +1,13 @@
+{
+  "name": "@glenn123/pantry-test",
+  "version": "0.0.8",
+  "description": "Test package for pantry publish",
+  "main": "index.js",
+  "type": "module",
+  "author": "Glenn Michael Torregosa",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/glennmichael123/pantry-test.git"
+  }
+}
