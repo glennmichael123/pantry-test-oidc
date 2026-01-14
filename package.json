@@ -1,5 +1,5 @@
 {
-  "name": "@glenn123/pantry-test",
+  "name": "@glenn123/pantry-test-oidc",
   "version": "0.0.1",
   "description": "Test package for pantry publish",
   "main": "index.js",
