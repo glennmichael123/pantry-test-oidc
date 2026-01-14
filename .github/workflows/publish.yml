@@ -51,3 +51,5 @@ jobs:
 
       - name: Publish
         run: pantry publish --access public
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
