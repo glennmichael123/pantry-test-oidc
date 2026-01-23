@@ -1,13 +1,25 @@
 {
   "name": "@glenn123/pantry-test-oidc",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Test package for pantry publish",
-  "main": "index.js",
+  "main": "dist/index.js",
   "type": "module",
+  "files": [
+    "dist"
+  ],
+  "bin": {
+    "pantry-test": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "mkdir -p dist && cp index.js dist/ && cp cli.js dist/"
+  },
   "author": "Glenn Michael Torregosa",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/glennmichael123/pantry-test.git"
+  },
+  "dependencies": {
+    "lodash": "^4.17.23"
   }
 }
