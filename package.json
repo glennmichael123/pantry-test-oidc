@@ -1,6 +1,6 @@
 {
   "name": "@glenn123/pantry-test-oidc",
-  "version": "0.0.1",
+  "version": "0.0.6",
   "description": "Test package for pantry publish",
   "main": "dist/index.js",
   "type": "module",
