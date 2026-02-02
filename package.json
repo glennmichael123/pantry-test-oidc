@@ -17,7 +17,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/glennmichael123/pantry-test.git"
+    "url": "https://github.com/glennmichael123/pantry-test-oidc.git"
   },
   "dependencies": {
     "lodash": "^4.17.23",
