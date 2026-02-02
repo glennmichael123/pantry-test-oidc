@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "lockfileVersion": 1,
+  "generatedAt": "1769781409",
+  "packages": {
+    "chalk@4.1.2": {
+      "name": "chalk",
+      "version": "4.1.2",
+      "source": "npm"
+    },
+    "ts-cloud@0.1.0": {
+      "name": "ts-cloud",
+      "version": "0.1.0",
+      "source": "npm"
+    },
+    "lodash@4.17.23": {
+      "name": "lodash",
+      "version": "4.17.23",
+      "source": "npm"
+    }
+  }
+}
