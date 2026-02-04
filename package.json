@@ -9,7 +9,7 @@
   },
   "scripts": {
     "build": "mkdir -p dist && cp index.js dist/ && cp cli.js dist/",
-    "prepublishOnly": "bun run build"
+    "prepublishOnly": "mkdir -p dist && cp index.js dist/ && cp cli.js dist/"
   },
   "author": "Glenn Michael Torregosa",
   "license": "MIT",
