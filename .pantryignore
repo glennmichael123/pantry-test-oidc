@@ -1,3 +1,3 @@
-# Zig installation (downloaded during CI build)
-package/**
-
+zig/
+zig
+zig.tar.xz
