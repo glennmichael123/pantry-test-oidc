@@ -1,0 +1,15 @@
+# Zig installation (accidentally downloaded during build)
+zig/
+zig-*
+
+# Git
+.git/
+.gitignore
+
+# GitHub
+.github/
+
+# Development files
+*.log
+.DS_Store
+node_modules/
