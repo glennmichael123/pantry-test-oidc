@@ -46,9 +46,6 @@ jobs:
           zig build
           echo "$PWD/zig-out/bin" >> $GITHUB_PATH
 
-      - name: Build package
-        run: npm run build
-
       - name: Publish
         run: pantry npm:publish --access public
         env:
