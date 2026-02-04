@@ -1,2 +1,4 @@
 # Zig installation (downloaded during CI build)
 zig/
+zig
+zig.tar.xz
