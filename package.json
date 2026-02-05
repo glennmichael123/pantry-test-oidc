@@ -15,7 +15,7 @@
   ],
   "scripts": {
     "build": "bunx tsc && bun build --compile src/cli.ts --outfile bin/oidc",
-    "prepublishOnly": "bunx tsc && bun build --compile src/cli.ts --outfile bin/oidc"
+    "prepublishOnly": "bun build --compile src/cli.ts --outfile bin/oidc"
   },
   "author": "Glenn Michael Torregosa",
   "license": "MIT",
