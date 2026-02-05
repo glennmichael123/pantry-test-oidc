@@ -46,10 +46,8 @@ jobs:
           zig build
           echo "$PWD/zig-out/bin" >> $GITHUB_PATH
 
-      - name: Install dependencies
-        run: |
-          bun install
-          echo "$PWD/node_modules/.bin" >> $GITHUB_PATH
+      - name: Install & Build
+        run: bun install
 
       - name: Publish
         run: pantry npm:publish --access public
