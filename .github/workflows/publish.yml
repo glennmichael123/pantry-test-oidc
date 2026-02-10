@@ -49,7 +49,7 @@ jobs:
       - name: Install & Build
         run: bun install
 
-      - name: Publish
-        run: pantry npm:publish --access public
-        env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - name: Release
+        uses: stacksjs/action-releaser@v1.2.9
+        with:
+          npm_token: ${{ secrets.NPM_TOKEN }}
