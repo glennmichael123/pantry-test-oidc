@@ -1,4 +1,6 @@
 {
+  "name": "pantry-test-oidc",
+  "version": "0.2.9",
   "private": true,
   "workspaces": [
     "packages/*"
