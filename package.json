@@ -1,34 +1,8 @@
 {
-  "name": "@glenn123/pantry-test-oidc",
-  "version": "0.2.8",
-  "description": "Test package for pantry publish",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "type": "module",
-  "bin": {
-    "pantry-test": "./dist/cli.js",
-    "oidc": "./bin/oidc"
-  },
-  "files": [
-    "dist",
-    "bin"
+  "private": true,
+  "workspaces": [
+    "packages/*"
   ],
-  "scripts": {
-    "build": "bunx tsc && bun build --compile src/cli.ts --outfile bin/oidc",
-    "prepublishOnly": "bunx tsc && bun build --compile src/cli.ts --outfile bin/oidc"
-  },
-  "author": "Glenn Michael Torregosa",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/glennmichael123/pantry-test-oidc.git"
-  },
-  "dependencies": {
-    "lodash": "^4.17.23",
-    "axios": "^1.13.4",
-    "eslint": "^9.39.2",
-    "chalk": "^4.1.2"
-  },
   "devDependencies": {
     "typescript": "^5.7.0",
     "@types/node": "^22.0.0"

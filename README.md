@@ -1,13 +1,8 @@
-# @glenn123/pantry-test-oidc
+# pantry-test-oidc
 
-Test package for validating pantry's npm OIDC publishing with provenance attestation.
+Monorepo test project for pantry publish with OIDC provenance.
 
-## Install
+## Packages
 
-```bash
-npm install @glenn123/pantry-test-oidc
-```
-
-## License
-
-MIT
+- `@glenn123/pantry-core` - Core greeting utilities and types
+- `@glenn123/pantry-cli` - CLI tool built on pantry-core

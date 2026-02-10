@@ -14,13 +14,6 @@ export interface PackageInfo {
   name: string;
   version: string;
   description: string;
-  author: string;
-}
-
-export interface CLIConfig {
-  verbose: boolean;
-  outputFormat: "text" | "json";
-  color: boolean;
 }
 
 export type LogLevel = "debug" | "info" | "warn" | "error";

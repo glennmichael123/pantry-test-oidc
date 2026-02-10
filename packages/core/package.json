@@ -1,0 +1,22 @@
+{
+  "name": "@glenn123/pantry-core",
+  "version": "0.3.0",
+  "description": "Core greeting utilities and types",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "bunx tsc",
+    "prepublishOnly": "bunx tsc"
+  },
+  "author": "Glenn Michael Torregosa",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/glennmichael123/pantry-test-oidc.git",
+    "directory": "packages/core"
+  }
+}

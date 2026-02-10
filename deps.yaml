@@ -1,5 +1,0 @@
-dependencies:
-  bun.sh:
-    version: ^1
-    global: true
-  php.net: ^8.4

@@ -1,0 +1,28 @@
+{
+  "name": "@glenn123/pantry-cli",
+  "version": "0.3.0",
+  "description": "CLI tool for pantry greeting",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "bin": {
+    "pantry-greet": "./dist/cli.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "bunx tsc",
+    "prepublishOnly": "bunx tsc"
+  },
+  "dependencies": {
+    "@glenn123/pantry-core": "workspace:*"
+  },
+  "author": "Glenn Michael Torregosa",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/glennmichael123/pantry-test-oidc.git",
+    "directory": "packages/cli"
+  }
+}
