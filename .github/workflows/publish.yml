@@ -49,7 +49,7 @@ jobs:
       - name: Install & Build
         run: bun install
 
-      - name: Release
+      - name: Create GitHub Release
         uses: stacksjs/action-releaser@v1.2.9
-        with:
-          npm_token: ${{ secrets.NPM_TOKEN }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
