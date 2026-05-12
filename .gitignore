@@ -29,3 +29,4 @@ npm-debug.log*
 
 # Credentials (never commit these)
 .pantry/credentials
+pantry
